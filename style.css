@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgba(241, 245, 249, 1);
+
+}
+
+.content{
+    display: flex;
+    margin-top:18px;
+    margin-left: 50px;
+    gap:13rem;
+}
+.text-content{
+    margin-top: 150px;
+}
+.text-content p{
+    color: rgba(71, 85, 105, 1);
+    margin-top: 20px;
+
+}
+
+.text-content h1{
+    font-size: 72px;
+    white-space: nowrap;
+    color: rgba(15, 23, 42, 1);
+
+}
+
+.text-content h2{
+    font-size: 56px;
+    color: rgba(15, 23, 42, 1);
+
+}
+
+.big-images{
+    left: 30px;
+}
+
+
+.buttons {
+    margin-top: 30px;
+    margin-left: 5px;
+    display: flex;
+    gap: 2rem;
+}
+
+.buttons button {
+    background: rgba(15, 23, 42, 1);
+    white-space: nowrap;
+    border-radius: 12px;
+    padding: 22px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    border: none;
+}
+
+.buttons button:nth-child(1) .button_download span {
+    color: white;
+}
+
+.buttons button:nth-child(1) svg path {
+    fill: white; 
+}
+
+.button_download p{
+    white-space: nowrap;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.buttons button:nth-child(2){
+    background: white;
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgba(15, 23, 42, 1);
+    width: 150px;
+    height: 70px;
+}
+
+
+.buttons button:nth-child(2) .button_download span {
+    color: white;
+}
+
+.buttons button:nth-child(2) svg path {
+    fill: white; 
+    
+}
+
+.button_download p{
+    margin-bottom: 10px;
+}
+
+
+.fa-solid{
+    margin-bottom: 8px;
+}
+.vec{
+    margin-left: 280px;
+    width: 40px;
+    height: 10px;
+}
+
+.vec1{
+    position: absolute;
+    left: 53%;
+
+}
+
+.pic{
+    position: absolute;
+    left: 60%;
+    top: 24%;
+}
